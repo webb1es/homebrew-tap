@@ -5,21 +5,21 @@
 class Dotenvify < Formula
   desc "Convert key-value pairs to environment variables"
   homepage "https://github.com/webb1es/dotenvify"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/webb1es/dotenvify/releases/download/v0.3.0/dotenvify_0.3.0_darwin_amd64.tar.gz"
-      sha256 "2bf7e3ae69aa9181d3450d480a8d5923e7f5decde3090f4baddb486df8301785"
+      url "https://github.com/webb1es/dotenvify/releases/download/v0.3.1/dotenvify_0.3.1_darwin_amd64.tar.gz"
+      sha256 "b9f071d91892ca33649b99963ee1e684a1287d450f3580febca7badf9028dca8"
 
       def install
         bin.install "dotenvify"
       end
     end
     on_arm do
-      url "https://github.com/webb1es/dotenvify/releases/download/v0.3.0/dotenvify_0.3.0_darwin_arm64.tar.gz"
-      sha256 "b0a87aa0bf112aadb9b7ef9daec66f4f0e7f46b08b0b4d863fb9e547ae1ed0f8"
+      url "https://github.com/webb1es/dotenvify/releases/download/v0.3.1/dotenvify_0.3.1_darwin_arm64.tar.gz"
+      sha256 "8d00ac8b88d68e75a733de0eb56adbaf12add995aa9fc20413e500ba32a9e558"
 
       def install
         bin.install "dotenvify"
@@ -30,8 +30,8 @@ class Dotenvify < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/webb1es/dotenvify/releases/download/v0.3.0/dotenvify_0.3.0_linux_amd64.tar.gz"
-        sha256 "6e739d88276451743d380a9f5496c9fe24a29583fe386c8e526f884237f2b42c"
+        url "https://github.com/webb1es/dotenvify/releases/download/v0.3.1/dotenvify_0.3.1_linux_amd64.tar.gz"
+        sha256 "3deccdac3fa3bc2548416194d8b39aede90e5b58eab39ee8e7f0214fbce59b47"
 
         def install
           bin.install "dotenvify"
@@ -40,8 +40,8 @@ class Dotenvify < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/webb1es/dotenvify/releases/download/v0.3.0/dotenvify_0.3.0_linux_arm64.tar.gz"
-        sha256 "1d55466237bd67a1ea7f54d7b7bbf307faea60cf49ebc39d53491fea76778b65"
+        url "https://github.com/webb1es/dotenvify/releases/download/v0.3.1/dotenvify_0.3.1_linux_arm64.tar.gz"
+        sha256 "96b404fa454d4eba54fc19b9a7fdcb6a8287a5346cebfb9b251d7bd0659771b7"
 
         def install
           bin.install "dotenvify"
